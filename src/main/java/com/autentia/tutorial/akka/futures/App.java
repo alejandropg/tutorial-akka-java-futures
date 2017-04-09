@@ -12,11 +12,11 @@ public class App {
     private void execute() throws InterruptedException {
         final ActorSystem system = boot();
 
-//        new SimpleFuture(system).runExample();
-//        new MapFutures(system).runExample();
-//        new TraverseFutures(system).runExample();
-//        new SequenceFutures(system).runExample();
-//        new FoldFutures(system).runExample();
+        new SimpleFuture(system).runExample();
+        new MapFutures(system).runExample();
+        new TraverseFutures(system).runExample();
+        new SequenceFutures(system).runExample();
+        new FoldFutures(system).runExample();
         new ReduceFutures(system).runExample();
 
         shutdown(system);
