@@ -1,3 +1,4 @@
+# Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,3 +8,29 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle
+build/
+gradle-app.setting
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+RemoteSystemsTempFiles/
+.recommenders/
+
